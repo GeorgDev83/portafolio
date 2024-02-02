@@ -1,20 +1,22 @@
-img {
-    float: right
-}
-
 h1 {
-    font-size: 96px;
+    font-size: 72px;
 }
 
 body {
     margin: 150px;
 }
 
+video {
+    margin: 50px;
+}
+
+img{
+    border-radius: 100%;
+    float: inline-end;
+} 
+
 input {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
-    border: 1px solid #000000;
     padding: 0 4px 0 4px;
  }
 
@@ -25,3 +27,8 @@ input {
 .saltoLinea {
     white-space: pre-line;
 }
+
+button {
+    margin: 10px;
+}
+  
