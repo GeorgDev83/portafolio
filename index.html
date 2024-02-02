@@ -11,32 +11,54 @@
     <h1>Portafolio Jorge R. Rego</h1>
     <h2>Desarrollador Web Full Stack</h2>
     <h3>Acerca de mí:</h3>
-    <video src="multimedia/MGSV.mp4" title="The Man Who sold The World." height="300">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit quidem modi quae beatae molestias minus fugit et explicabo aliquid voluptatum, dignissimos eligendi animi nesciunt in laudantium. Ex, maiores facere. </p>
+    <video src="multimedia/MGSV.mp4" title="The Man Who sold The World." height="300" controls >
         Tu reproductor no es compatible con HTML5.
     </video>
-    <form>
+    <form id="formulario">
         ¿Cual es tu pasatiempo?
-        <label for="cbHobbie1">
-            <input type="checkbox" id="cbHobbie1" name="cbHobbie" value="cbHobbie1" checked/>
+        <label class="bloque" for="cbHobbie1">
+            <input type="checkbox" id="cbHobbie1" name="cbHobbie" value="cbHobbie1" checked>
             Desarrollar
         </label>
-        <label for="cbHobbie2">
-            <input type="checkbox" id="cbHobbie2" name="cbHobbie" value="cbHobbie2" />
+        <label class="bloque" for="cbHobbie2">
+            <input type="checkbox" id="cbHobbie2" name="cbHobbie" value="cbHobbie2" >
             Ver películas
         </label>
-        <label for="cbHobbie3">
-            <input type="checkbox" id="cbHobbie3" name="cbHobbie" value="cbHobbie3" />
+        <label class="bloque" for="cbHobbie3">
+            <input type="checkbox" id="cbHobbie3" name="cbHobbie" value="cbHobbie3" >
             Oir música
         </label>
         ¿A que equipo perteneces?
-        <label for="rbEquip1">
-            <input type="radio" id="rbEquip1" name="rbEquip" value="rbEquip1" checked/>
+        <label class="bloque" for="rbEquip1">
+            <input type="radio" id="rbEquip1" name="rbEquip" value="rbEquip1" checked >
             Mañana
         </label>
-        <label for="rbEquip2">
-            <input type="radio" id="rbEquip2" name="rbEquip" value="rbEquip2" />
+        <label class="bloque" for="rbEquip2">
+            <input type="radio" id="rbEquip2" name="rbEquip" value="rbEquip2" >
             Tarde
         </label>
+
+        Contáctame!
+        <label class="saltoLinea" for="ipmail">
+            Introduce tu email
+            <input type="email" id="ipmail" name="ipmail" placeholder="Introduce tu email" >
+        </label>
+        <label class="saltoLinea" for="ipNombre">
+            Introduce tu nombre
+            <input type="text" id="ipNombre" name="ipNombre" placeholder="Introduce tu nombre" >
+        </label>
+        <label class="saltoLinea" for="taComentario">
+            Introduce tu comentario
+            <textarea name="taComentario" id="taComentario" cols="30" rows="10"></textarea>
+        </label>
+        <label class="saltoLinea" for="ipTelf">
+            Deja tu teléfono
+            <input type="tel" id="ipTelf" name="ipTelf" placeholder="+34 666 666 666" >
+        </label>
+
+        <button type="submit" form="formulario">Enviar formulario</button>
+        <button type="reset" form="formulario">Reset</button>
     </form>
 </body>
 </html>

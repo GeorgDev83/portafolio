@@ -2,8 +2,26 @@ img {
     float: right
 }
 
-/*input { content: '\A'; white-space: pre;}*/
+h1 {
+    font-size: 96px;
+}
 
-label {
+body {
+    margin: 150px;
+}
+
+input {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 0 4px 0 4px;
+ }
+
+.bloque {
     display: block;
-  }
+}
+
+.saltoLinea {
+    white-space: pre-line;
+}
